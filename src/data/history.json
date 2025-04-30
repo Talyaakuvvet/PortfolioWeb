@@ -5,7 +5,7 @@
     "startDate": "July, 2024",
     "endDate": "August, 2024",
     "experiences": ["Worked on Office Software System support"],
-    "imageSrc": "assets/history/itnow.png"
+    "imageSrc": "history/itnow.png"
   },
   {
     "role": "Youtube Creator",
@@ -13,6 +13,6 @@
     "startDate": "December, 2023",
     "endDate": "Present",
     "experiences": ["Creating videos about my school life, software engineering"],
-    "imageSrc": "assets/history/youtube.png"
+    "imageSrc": "history/youtube.png"
   }
 ]
