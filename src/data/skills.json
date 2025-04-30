@@ -1,18 +1,18 @@
 [
   {
     "title": "HTML",
-    "imageSrc": "assets/skills/html.png"
+    "imageSrc": "skills/html.png"
   },
   {
     "title": "CSS",
-    "imageSrc": "assets/skills/css.png"
+    "imageSrc": "skills/css.png"
   },
   {
     "title": "React",
-    "imageSrc": "assets/skills/react.png"
+    "imageSrc": "skills/react.png"
   },
   {
     "title": "Swift",
-    "imageSrc": "assets/skills/swift.png"
+    "imageSrc": "skills/swift.png"
   }
 ]
