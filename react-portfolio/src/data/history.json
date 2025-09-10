@@ -1,0 +1,18 @@
+[
+  {
+    "role": "Software Support Intern",
+    "organisation": "ITNow Information systems",
+    "startDate": "July, 2024",
+    "endDate": "August, 2024",
+    "experiences": ["Worked on Office Software System support"],
+    "imageSrc": "history/itnow.png"
+  },
+  {
+    "role": "Content Creator",
+    "organisation": "Youtube",
+    "startDate": "December, 2023",
+    "endDate": "Present",
+    "experiences": ["Creating videos about my school life, software engineering"],
+    "imageSrc": "history/youtube.png"
+  }
+]
