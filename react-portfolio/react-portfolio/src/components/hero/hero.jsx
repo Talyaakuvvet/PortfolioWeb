@@ -1,3 +1,4 @@
+import React from "react";
 import styles from "./hero.module.css";
 
 import heroImage from '../../../assets/hero/heroImage.png';
@@ -8,8 +9,9 @@ export const Hero = () => {
        <div className={styles.content}>
          <h1 className={styles.title}>Hi, I'm Talya</h1>
          <p className={styles.description}>
-         I am a senior Software Engineering student at Atlas University. I have past experience in Swift projects and basic web technologies (HTML, CSS). 
-         Recently, my main focus has shifted to Artificial Intelligence, especially Machine Learning and Deep Learning.
+         I am a third-year Software Engineering student specializing in iOS development.
+Recently, I developed a strong interest in artificial intelligence and have been expanding
+my knowledge in this area. Reach out if you'd like to learn more!
          </p>
          <a href="mailto:talyakuvvet04@gmail.com" className={styles.contactBtn}>
            Contact Me

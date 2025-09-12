@@ -8,19 +8,11 @@
     "imageSrc": "skills/css.png"
   },
   {
-    "title": "Python",
-    "imageSrc": "skills/python.png"
+    "title": "React",
+    "imageSrc": "skills/react.png"
   },
   {
     "title": "Swift",
     "imageSrc": "skills/swift.png"
-  },
-  {
-    "title": "Github",
-    "imageSrc": "skills/github.jpg"
-  },
-  {
-    "title": "Tensorflow",
-    "imageSrc": "skills/tensorflow.jpg"
   }
 ]
