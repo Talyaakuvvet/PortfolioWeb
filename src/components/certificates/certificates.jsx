@@ -4,20 +4,17 @@ const certificates = [
   {
     title: "Machine Learning Specialization",
     issuer: "Stanford University (Coursera)",
-    image: "images/ml_specialization.png",
-    link: "https://coursera.org/verify/XYZ123",
+    link: "https://coursera.org/verify/specialization/4LQXVU22QZG0",
   },
   {
-    title: "Deep Learning with PyTorch",
-    issuer: "IBM Skills Network",
-    image: "images/pytorch_certificate.png",
-    link: "https://skills.network/certificate/ABC456",
+    title: "Advanced Learning Algorithms",
+    issuer: " DeepLearning.AI",
+    link: "https://coursera.org/verify/N6QG574WOZZB",
   },
   {
-    title: "Flutter Development Bootcamp",
-    issuer: "App Brewery",
-    image: "images/flutter_bootcamp.png",
-    link: "https://udemy.com/certificate/DEF789",
+    title: "Foundations of Project Management",
+    issuer: "Google",
+    link: "https://coursera.org/verify/R0TRZQEAWL9L",
   },
 ];
 

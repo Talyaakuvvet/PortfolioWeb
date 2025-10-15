@@ -1,11 +1,11 @@
 [
   {
-    "title": "HTML",
-    "imageSrc": "skills/html.png"
+    "title": "Github",
+    "imageSrc": "skills/github.png"
   },
   {
-    "title": "CSS",
-    "imageSrc": "skills/css.png"
+    "title": "Tensorflow",
+    "imageSrc": "skills/tensorflow.png"
   },
   {
     "title": "Python",
@@ -16,11 +16,12 @@
     "imageSrc": "skills/swift.png"
   },
   {
-    "title": "Github",
-    "imageSrc": "skills/github.jpg"
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
   },
   {
-    "title": "Tensorflow",
-    "imageSrc": "skills/tensorflow.jpg"
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
   }
+  
 ]
