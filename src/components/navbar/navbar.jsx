@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import closeIcon from '../../../assets/nav/closeIcon.png';
 import menuIcon from '../../../assets/nav/menuIcon.png';
 import styles from "./navbar.module.css";
@@ -34,6 +34,9 @@ export const Navbar = () => {
           </li>
           <li>
             <a href="#contact">Contact</a>
+          </li>
+          <li>
+            <a href="#certificates">Certificates</a>
           </li>
         </ul>
       </div>

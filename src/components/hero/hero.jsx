@@ -8,8 +8,8 @@ export const Hero = () => {
        <div className={styles.content}>
          <h1 className={styles.title}>Hi, I'm Talya</h1>
          <p className={styles.description}>
-         I am a senior Software Engineering student at Atlas University. I have past experience in Swift projects and basic web technologies (HTML, CSS). 
-         Recently, my main focus has shifted to Artificial Intelligence, especially Machine Learning and Deep Learning.
+         I am a senior Software Engineering student at Atlas University. I have past experience in Swift projects and basic web technologies. 
+         Recently, my main focus has shifted to artificial intelligence.
          </p>
          <a href="mailto:talyakuvvet04@gmail.com" className={styles.contactBtn}>
            Contact Me

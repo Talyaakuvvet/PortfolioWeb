@@ -1,7 +1,7 @@
 [
   {
     "title": "Burnt Calorie Predicter",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "projects/calorie-burnt.png",
     "description": "this is a ML project supported with streamlit to visualize it. It predicts the calories that are burnt during your exercise and all your other infos",
     "skills": ["ML", "Python", "Streamlit"],
     "demo": "https://burnt-calorie-predicter-with-ml-4myjqbphaqe27ega87z4gh.streamlit.app/",
