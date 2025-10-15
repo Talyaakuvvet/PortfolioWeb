@@ -1,4 +1,3 @@
-import React from "react";
 import aboutImage from '../../../assets/about/aboutImage.png';
 import cursorIcon from '../../../assets/about/cursorIcon.png';
 import serverIcon from '../../../assets/about/serverIcon.png';
@@ -22,9 +21,8 @@ export const About = () => {
                alt="Cursor icon" 
                />
                <div className={styles.aboutItemText}>
-                  <h3>IOS Swift app developer</h3>
-                  <p>I have been developing iOS applications using Swift and SwiftUI, 
-                     focusing on clean architecture and intuitive UI design.</p>
+                  <h3>🧠 AI & ML Developer</h3>
+                  <p>Exploring machine learning and artificial intelligence — from model training to real-world applications.</p>
                </div>
             </li>
             <li className={styles.aboutItem}>
@@ -32,9 +30,8 @@ export const About = () => {
                alt="Server icon" 
                />
                <div className={styles.aboutItemText}>
-                  <h3>Frontend Developer</h3>
-                  <p>I have experience building responsive and interactive website frontends using
-                      modern technologies such as React and CSS frameworks.</p>
+                  <h3>🍎 iOS Developer</h3>
+                  <p>Building intuitive, elegant iOS apps using Swift and SwiftUI.</p>
                </div>
             </li>
             <li className={styles.aboutItem}>
@@ -42,9 +39,8 @@ export const About = () => {
                alt="UI icon" 
                />
                <div className={styles.aboutItemText}>
-                  <h3>Content creator</h3>
-                  <p>I create content on YouTube about my school life, 
-                     coding journey,software engineering topics.</p>
+                  <h3>🎥 Content Creator</h3>
+                  <p>Sharing my coding and tech journey on YouTube with simple, honest storytelling.</p>
                </div>
             </li>
           </ul> 
