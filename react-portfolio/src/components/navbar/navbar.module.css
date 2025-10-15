@@ -65,14 +65,14 @@
     align-items: center;
     gap: 13px;
     border-radius: 10px;
-    background: rgb(25, 55, 109);
+    background: rgb(109, 148, 197);
     background: linear-gradient(
-      0deg,
-      rgba(25, 55, 109, 0.2) 0%,
-      rgba(25, 55, 109, 1) 100%
+     0deg,
+    rgba(109, 148, 197, 0.2) 0%,
+    rgba(203, 220, 235, 1) 100%
     );
     padding: 24px 33px;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 8px 0 rgba(109, 148, 197, 0.25);
   }
 
   .menuOpen {
