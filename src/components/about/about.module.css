@@ -37,24 +37,51 @@
 }
 
 .aboutItem {
-     display: flex;
-     flex-direction: row;
-     align-items: center;
-     border-radius: 20px;
-     list-style: none;
-background-image: linear-gradient(
-  90deg,
-  rgba(232, 223, 202, 1) 0%  
-  rgba(203, 220, 235, 0) 100%     
-);
-     background-size: 0 100%;
-     background-repeat: no-repeat;
-     transition: 0.4s;
-     animation-name: floating;
-     animation-duration: 3s;
-     animation-iteration-count: infinite;
-     animation-timing-function: ease-in-out;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 20px;
+  list-style: none;
+
+  background-image: linear-gradient(
+    90deg,
+    rgba(232, 223, 202, 1) 0%,   /* Bej */
+    rgba(109, 148, 197, 1) 100%  /* Mavi */
+  );
+
+  background-size: 200% 100%;
+  background-position: 0% 50%;
+  background-repeat: no-repeat;
+  transition: background-position 0.4s ease;
+  
+  /* Hafif yukarı-aşağı salınım efekti */
+  animation: floating 3s ease-in-out infinite, 
+             gradientMove 6s ease-in-out infinite;
 }
+
+/* Yukarı-aşağı hareket (float effect) */
+@keyframes floating {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+/* Arka planın yavaşça akması (gradient flow) */
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 
 
 .aboutItem:hover {
@@ -71,12 +98,12 @@ background-image: linear-gradient(
 }
 .topBlur {
   position: absolute;
-  width: 70vw;
+  width: 50vw;
   height: 50vw;
   min-width: 350px;
-  min-width: 250px;
-  top: 246px;
-  right: -25vw;
+  min-width: 350px;
+  top: -128px;
+  left: -10vw;
   border-radius: 764px;
   background: rgba(232, 223, 202, 1);
   filter: blur(100px);
