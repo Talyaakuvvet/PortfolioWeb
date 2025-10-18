@@ -52,6 +52,9 @@
   padding: 17px 26px;
   box-shadow: 0 0 6px 0 rgba(109, 148, 197, 0.35);
 }
+.contactBtn:hover {
+  transform: translateY(-1px);
+}
 
 .heroImg {
   width: 50%;
