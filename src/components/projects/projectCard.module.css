@@ -12,19 +12,6 @@
   animation: beigeFlow 8s ease-in-out infinite;
 }
 
-/* bej degrade’nin akış animasyonu */
-@keyframes beigeFlow {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
 
 .title {
   font-size: 25px;

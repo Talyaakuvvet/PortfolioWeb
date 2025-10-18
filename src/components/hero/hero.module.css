@@ -26,10 +26,9 @@
   font-family: var(--font-roboto);
   background: linear-gradient(
   90deg,
-  rgba(232, 223, 202, 1) 70%,   /* #E8DFCA – bej */
-  rgba(203, 220, 235, 0) 120%   /* #CBDCEB – açık mavi, şeffaflaşan */
-);
-
+  rgba(109, 148, 197, 0.7) 75%,  /* maviye geçiş */
+    rgba(109, 148, 197, 1) 100%    /* tam mavi bitiş */
+  );
   -webkit-text-fill-color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
