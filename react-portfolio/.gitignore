@@ -22,12 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-<<<<<<< HEAD
-=======
 .DS_Store
 node_modules
 *.log
 .DS_Store
 node_modules
 *.log
->>>>>>> 093589f (Update: added Python/TensorFlow/GitHub skills and content tweaks)

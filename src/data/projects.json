@@ -8,12 +8,11 @@
     "source": "https://github.com/Talyaakuvvet/Burnt-Calorie-Predicter-with-ML"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Chatbot Using RAG",
+    "imageSrc": "projects/chatbot1.png",
+    "description": "RAG-based chatbot to answer questions from company reports (Tesla, NVIDIA, Amex, Apple).",
+    "skills": ["Streamlit", "LangChain", "Pinecone", "Hugging Face"],
+    "source": "https://github.com/Talyaakuvvet/rag-chatbot"
   },
   {
     "title": "Project C",
