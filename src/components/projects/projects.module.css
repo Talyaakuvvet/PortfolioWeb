@@ -29,11 +29,12 @@
 
 .projects {
   margin-top: 37px;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(260px, 1fr));
+  gap: 28px;
+  align-items: stretch;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: center;
-  gap: 15px;
   width: 100%;
 }
