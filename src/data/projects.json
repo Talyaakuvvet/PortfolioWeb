@@ -1,8 +1,8 @@
 [
   {
-    "title": "Burnt Calorie Predicter with ML",
+    "title": "Burnt Calorie Predicter",
     "imageSrc": "projects/calorie-burnt.png",
-    "description": "This is a ML project.It predicts the calories that are burnt during your exercise and all your other infos",
+    "description": "This project predicts the calories that are burnt during your exercise",
     "skills": ["ML", "Python", "Streanlit"],
     "demo": "https://burnt-calorie-predicter-with-ml-4myjqbphaqe27ega87z4gh.streamlit.app/",
     "source": "https://github.com/Talyaakuvvet/Burnt-Calorie-Predicter-with-ML"
