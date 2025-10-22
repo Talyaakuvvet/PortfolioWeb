@@ -12,6 +12,7 @@
     "imageSrc": "projects/chatbot1.png",
     "description": "RAG-based chatbot to answer questions from company reports (Tesla, NVIDIA, Amex, Apple).",
     "skills": ["Streamlit", "LangChain", "Pinecone", "Hugging Face"],
+    "demo": "",
     "source": "https://github.com/Talyaakuvvet/rag-chatbot"
   },
   {
