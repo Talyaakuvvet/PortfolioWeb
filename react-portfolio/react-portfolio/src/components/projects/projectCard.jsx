@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./projectCard.module.css";
 
 export const ProjectCard = ({ project: { title, imageSrc, description, skills, demo, source } }) => {
@@ -13,7 +12,16 @@ export const ProjectCard = ({ project: { title, imageSrc, description, skills, d
         })}
       </ul>
       <div className={styles.links}>
-        <a href={demo} target="_blank" rel="noopener noreferrer" className={styles.link}>Demo</a>
+        {demo && demo.trim() !== "" && (
+          <a
+            href={demo}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.link}
+  >
+    Demo
+  </a>
+)}
         <a href={source} target="_blank" rel="noopener noreferrer" className={styles.link}>Source</a>
       </div>
     </div>
