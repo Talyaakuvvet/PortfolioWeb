@@ -17,7 +17,7 @@
   },
   {
     "title": "Movie Searcher",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "projects/movieSearch.png",
     "description": "This is iOS app developed using SwiftUI that allows users to view film details from the IMDb database.",
     "skills": ["Swift", "XCode", "IOS"],
     "demo": "",
