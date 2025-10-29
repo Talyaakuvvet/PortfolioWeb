@@ -15,10 +15,10 @@ my knowledge in this area. Reach out if you'd like to learn more!
          <a href="mailto:talyakuvvet04@gmail.com" className={styles.contactBtn}>
            Contact Me
          </a>
-         <a href="/cv/talya-cv-en.pdf" className={styles.contactBtn} download>
+         <a href="/cv/talya-cv-en.pdf" className={styles.contactBtnCV} download>
             Download CV (English)
          </a>
-         <a href="/cv/talya-cv-tr.pdf" className={styles.contactBtn} download>
+         <a href="/cv/talya-cv-tr.pdf" className={styles.contactBtnCV} download>
             Download CV (Türkçe)
          </a>
        </div>
