@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./hero.module.css";
 
 import heroImage from '../../../assets/hero/heroImage.png';
@@ -15,6 +14,12 @@ my knowledge in this area. Reach out if you'd like to learn more!
          </p>
          <a href="mailto:talyakuvvet04@gmail.com" className={styles.contactBtn}>
            Contact Me
+         </a>
+         <a href="/cv/talya-cv-en.pdf" className={styles.contactBtn} download>
+            Download CV (English)
+         </a>
+         <a href="/cv/talya-cv-tr.pdf" className={styles.contactBtn} download>
+            Download CV (Türkçe)
          </a>
        </div>
        <img
