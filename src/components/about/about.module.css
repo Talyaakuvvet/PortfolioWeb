@@ -2,14 +2,28 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  border-radius: 0; /* kutu hissi tamamen kalksın */
+  border-radius: 20px;
   list-style: none;
-  background: none; /* tüm arka plan silinir */
-  box-shadow: none; /* olası gölge varsa kaldırır */
-  transition: none;
+  background: none; /* arka plan tamamen kaldırıldı */
+  border: 1.5px solid rgba(109, 148, 197, 0.3); /* yumuşak mavi çerçeve */
+  padding: 20px 25px;
+  gap: 16px;
+  transition: border-color 0.3s ease, transform 0.2s ease;
   animation: floating 3s ease-in-out infinite;
-  padding: 0; /* kutunun iç boşluklarını da sıfırlar */
-  margin: 0; /* kutular birbirine daha yakın olur */
+}
+
+.aboutItem:hover {
+  border-color: rgba(109, 148, 197, 0.6);
+  transform: translateY(-3px);
+}
+
+.aboutItem h3 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.aboutItem p {
+  font-size: 20px;
 }
 
 /* Yukarı-aşağı hareket (float effect) */
@@ -20,18 +34,4 @@
   50% {
     transform: translateY(-6px);
   }
-}
-
-/* Hover da artık hiçbir renk göstermesin */
-.aboutItem:hover {
-  background: none;
-}
-
-.aboutItem h3 {
-  font-size: 25px;
-  font-weight: 600;
-}
-
-.aboutItem p {
-  font-size: 25px;
 }
