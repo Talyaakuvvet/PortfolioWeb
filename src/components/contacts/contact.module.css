@@ -3,13 +3,19 @@
 .container {
   color: var(--color-text);
   margin-top: 120px;
-  background-color: var(--color-secondary);
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   width: 100vw;
   padding: 58px 10%;
   gap: 10px;
+
+  background: linear-gradient(
+    to bottom,
+    rgba(245, 233, 218, 0) 0%,   /* Üstte tamamen saydam */
+    var(--color-secondary) 40%,  /* Geçiş */
+    var(--color-secondary) 100%  /* Altta tam renk */
+  );
 }
 
 .text h2 {
