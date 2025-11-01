@@ -39,6 +39,16 @@
   width: 100%;
 }
 
+.project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 450px; /* web'deki hizayla aynı tut */
+  max-height: 450px; /* istersen sabitle */
+  box-sizing: border-box;
+}
+
+
 /* Mobil: yatay scroll */
 @media screen and (max-width: 830px) {
   .projects {
