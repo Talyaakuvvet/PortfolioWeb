@@ -129,4 +129,16 @@
   .content {
     align-items: center;
   }
+
+.title {
+  font-size: 72px;
+  font-weight: 900;
+  margin-bottom: 33px;
+  font-family: var(--font-roboto);
+  background: rgba(232, 223, 202, 1);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+
+}
 }
