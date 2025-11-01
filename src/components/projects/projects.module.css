@@ -13,11 +13,12 @@
   letter-spacing: 1.75px;
   text-transform: uppercase;
 }
+
+/* Arka plan efekti */
 .topBlur {
   position: absolute;
   width: 50vw;
   height: 50vw;
-  min-width: 350px;
   min-width: 350px;
   top: -128px;
   left: -10vw;
@@ -27,14 +28,36 @@
   z-index: 0;
 }
 
+/* Masaüstü: grid */
 .projects {
   margin-top: 37px;
   display: grid;
   grid-template-columns: repeat(3, minmax(260px, 1fr));
   gap: 28px;
   align-items: stretch;
-  flex-direction: row;
-  flex-wrap: wrap;
   justify-content: center;
   width: 100%;
+}
+
+/* Mobil: yatay scroll */
+@media screen and (max-width: 830px) {
+  .projects {
+    display: flex;                    /* grid yerine flex */
+    flex-direction: row;
+    overflow-x: auto;                 /* yatay kaydırma aktif */
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;/* iOS Safari için */
+    gap: 16px;
+    padding: 0 16px;
+  }
+
+  .projects > * {
+    flex: 0 0 80%;                    /* her kart ekranın %80’i kadar */
+    max-width: 350px;
+    scroll-snap-align: start;         /* kart geçişi düzgün olur */
+  }
+
+  .projects::-webkit-scrollbar {
+    display: none; /* scrollbar gizle, sadece parmakla kay */
+  }
 }

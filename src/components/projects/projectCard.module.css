@@ -42,12 +42,14 @@
 }
 
 /* İsteğe bağlı: açıklamayı 3 satırla sınırla; kart yükseklikleri stabil olur */
-.description.-clamp3 {
+.description.--clamp3 {
   display: -webkit-box;
-  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3; /* Safari, Chrome */
+  line-clamp: 3;         /* Yeni spesifikasyon (Firefox 121+ destekli) */
   overflow: hidden;
 }
+
 
 .skills {
   width: 100%;
