@@ -10,7 +10,7 @@ export const Hero = () => {
          <p className={styles.description}>
          I am a third-year Software Engineering student specializing in iOS development.
 Recently, I developed a strong interest in artificial intelligence and have been expanding
-my knowledge in this area. Reach out if you'd like to learn more!
+my knowledge in this area. 
          </p>
          <a href="mailto:talyakuvvet04@gmail.com" className={styles.contactBtn}>
            Contact Me
