@@ -8,9 +8,9 @@ export const Hero = () => {
        <div className={styles.content}>
          <h1 className={styles.title}>Hi, I'm Talya</h1>
          <p className={styles.description}>
-         I am a senior Software Engineering student at Atlas University. 
-         I have past experience in Swift projects and basic web technologies. 
-         Recently, my main focus has shifted to artificial intelligence.
+         I started with mobile apps, fell in love with AI, and ended up building drones that monitor forests.
+Software Engineering graduate with a focus on computer vision and full-stack development.
+Always curious, always building.
          </p>
          <a href="mailto:talyakuvvet04@gmail.com" className={styles.contactBtn}>
            Contact Me
