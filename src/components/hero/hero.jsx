@@ -8,17 +8,17 @@ export const Hero = () => {
        <div className={styles.content}>
          <h1 className={styles.title}>Hi, I'm Talya</h1>
          <p className={styles.description}>
-         I am a third-year Software Engineering student specializing in iOS development.
-Recently, I developed a strong interest in artificial intelligence and have been expanding
-my knowledge in this area. 
+         I started with mobile apps, fell in love with AI, and ended up building drones that monitor forests.
+Software Engineering graduate with a focus on computer vision and full-stack development.
+Always curious, always building.
          </p>
          <a href="mailto:talyakuvvet04@gmail.com" className={styles.contactBtn}>
            Contact Me
          </a>
-         <a href="/cv/talya-cv-en.pdf" className={styles.contactBtnCV} download>
+         <a href="/cv/TalyaKuvvet-CV-eng.pdf" className={styles.contactBtnCV} download>
             Download CV (English)
          </a>
-         <a href="/cv/talya-cv-tr.pdf" className={styles.contactBtnCV} download>
+         <a href="/cv/TalyaKuvvetCV-tr.pdf" className={styles.contactBtnCV} download>
             Download CV (Türkçe)
          </a>
        </div>
